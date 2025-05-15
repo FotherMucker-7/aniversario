@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nuestro Primer Año Juntos</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <script
+      src="https://kit.fontawesome.com/e2a1c9b581.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Nuestro Primer Año Juntos</h1>
+        <p class="subtitle">Un viaje por nuestros momentos especiales</p>
+      </header>
+
+      <!-- Barra de progreso -->
+      <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+
+      <!-- Contenedor principal de la línea del tiempo -->
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline-events" id="timelineEvents">
+          <!-- Los eventos se generarán dinámicamente con JavaScript -->
+        </div>
+      </div>
+
+      <!-- Navegación de la línea del tiempo -->
+      <div class="timeline-navigation">
+        <button class="nav-btn" id="prevBtn">
+          <i class="fas fa-chevron-left"></i> Anterior
+        </button>
+        <button class="nav-btn" id="nextBtn">
+          Siguiente <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal para mostrar el contenido completo -->
+    <div class="modal" id="eventModal">
+      <div class="modal-content">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <div class="modal-header">
+          <h2 class="modal-title" id="modalTitle">Título del Evento</h2>
+          <p class="modal-date" id="modalDate">Fecha del Evento</p>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <!-- El contenido se generará dinámicamente -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="app2.js"></script>
+  </body>
+</html>
