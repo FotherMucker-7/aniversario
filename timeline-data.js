@@ -8,7 +8,7 @@ const timelineData = [
     content: {
       text: "El primer 'Hola' luego del match en la app de caradelibro. Ilusionado por un nuevo tipo de ortopedia vendida por una misteriosa mujer",
       images: ["images/primermsjeface.jpg", "images/primermsjeface2.jpg"],
-      audio: "audio/Pedro Fernandez - Mi Forma de Sentir.mp3",
+      audio: "audio/PF - Mi Forma De Sentir.mp3",
       emoji: "👀",
     },
     type: "love", // Puedes usar tipos para categorizar eventos
