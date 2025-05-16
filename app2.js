@@ -146,6 +146,9 @@ function openModal(event) {
   }
 
   modalBody.innerHTML = modalContent;
+  // Añadir clase especial basada en el ID del evento
+  eventModal.className = "modal"; // Resetear clases
+  eventModal.classList.add(`event-${event.id}`); // Añadir clase específica para el ID
   eventModal.classList.add("active");
 
   // Bloquear el scroll del body
